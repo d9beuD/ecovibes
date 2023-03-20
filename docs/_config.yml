@@ -12,9 +12,14 @@ description: |
   Rejoignez notre communauté de passionnés de l'environnement et achetez avec
   EcoVibes aujourd'hui !
 
+timezone: Europe/Paris
+
+# Markdown
+markdown: kramdown
 kramdown:
   input: GFM
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
