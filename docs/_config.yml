@@ -1,9 +1,16 @@
 domain: ecovibes.fr
 url: "https://ecovibes.fr"
 baseurl: ""
-title: "EcoVibes"
+title: |
+  EcoVibes - Produits éco-friendly et articles de blog pour un mode de vie
+  durable
 
-markdown: kramdown
+description: |
+  Chez EcoVibes, trouvez une sélection de produits éco-friendly pour votre
+  maison, votre cuisine, votre mode de vie et vos voyages. Découvrez également
+  nos articles de blog sur les dernières tendances en matière d'écologie.
+  Rejoignez notre communauté de passionnés de l'environnement et achetez avec
+  EcoVibes aujourd'hui !
 
 kramdown:
   input: GFM
@@ -15,10 +22,4 @@ plugins:
 
 # SEO
 locale: fr_FR
-
 social:
-
-description: |
-  Après 5 ans d'études à EPSI Montpellier dont 3 en alternance, j'ai co-fondé
-  mon entreprise Codevia. En parallèle, j'ai lancé mon activité de développeur
-  web freelance.
