@@ -1,16 +1,9 @@
-.navbar {
-  background-color: $white;
-}
-
-@include color-mode(dark) {
-  .navbar, .footer {
-    background-color: $dark;
-  }
-}
-
 .navbar-brand {
-  font-family: Menlo, Monaco, "Courier New", monospace;
-  font-weight: bold;
+  font-family: playlist-script;
+  font-weight: normal;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: $spacer * 1.5
 }
 
 .nav-separator {
