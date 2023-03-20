@@ -1,0 +1,24 @@
+domain: ecovibes.fr
+url: "https://ecovibes.fr"
+baseurl: ""
+title: "EcoVibes"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO
+locale: fr_FR
+
+social:
+
+description: |
+  Après 5 ans d'études à EPSI Montpellier dont 3 en alternance, j'ai co-fondé
+  mon entreprise Codevia. En parallèle, j'ai lancé mon activité de développeur
+  web freelance.
