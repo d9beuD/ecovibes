@@ -19,12 +19,19 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+# Responsive images
+responsive:
+  widths:
+    - 480
+    - 768
+    - 1024
+
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll_picture_tag
+  - jekyll-responsive-magick
 
 # SEO
 locale: fr_FR
