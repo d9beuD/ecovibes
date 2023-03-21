@@ -37,7 +37,7 @@ jobs:
       - name: 🔨 install dependencies & build site
         run: |
           cd docs
-          bundle
+          bundle install --jobs 4
           bundle exec jekyll build
 
       - name: 🚀 deploy
