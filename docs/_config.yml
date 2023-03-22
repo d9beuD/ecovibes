@@ -36,10 +36,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-responsive-magick
+  - jekyll-date-localization
 
 # SEO
 locale: fr_FR
 social:
+
+# Internationalization
+date_locale: fr
 
 collections:
   kinds:
@@ -53,3 +57,11 @@ defaults:
       type: kinds
     values:
       layout: category
+
+  -
+    scope:
+      path: ""
+    values:
+      date_format: "%d %B %Y"
+
+  -
