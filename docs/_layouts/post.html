@@ -2,11 +2,34 @@
   layout: home
 ---
 
+{% assign tag = page.categories | first %}
 {% assign category = site.kinds | where: "tag", page.categories | first %}
+{% assign related = site.categories[tag] | limit: 5 %}
 
 {% include posts/breadcrumb.html category=category %}
 
-<div class="container py-5">
-  <h1 class="mb-4">{{ page.title }}</h1>
-  {{ page.content }}
-</div>
+<article class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="mb-4">{{ page.title }}</h1>
+        {{ page.content }}
+      </div>
+
+      <div class="col">
+        <div class="sticky-top mt-n4 pt-4">
+          <div class="card mb-4 sticky-top">
+            <div class="card-body">
+              <h5 class="card-title">Related</h5>
+              <ul class="list-unstyled">
+                {% for post in related %}
+                  {% include posts/post-excerpt.html post=post %}
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
