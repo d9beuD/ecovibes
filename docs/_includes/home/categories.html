@@ -1,20 +1,20 @@
 {% assign base_url = "/assets/images/categories" %}
 
 <div class="row justify-content-around">
-  {% for category in site.data.categories %}
-    <div class="col-8 col-sm-6 col-md-5 col-lg-4">
+  {% for category in site.categories %}
+    <div class="col-8 col-sm-6 col-md-5 col-xl-3 mb-3">
       <a href="{{ category.url }}">
         <div class="card category text-bg-dark">
-          {% assign thumbnail = site.data.categories_thumbnails[category.thumbnail] %}
+          {% assign thumbnail = site.data.categories_thumbnails[category.tag] %}
           {% capture path %}{{ base_url }}{{ thumbnail.path }}{% endcapture %}
           <img
-            alt=""
+            alt="{{ thumbnail.alt }}"
             class="card-img"
             src="{{ path }}"
             srcset="{{ path | srcset }}"
             width="400px">
           <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
-            <h4 class="card-title">{{ category.name }}</h5>
+            <h5 class="h2 card-title">{{ category.title }}</h5>
           </div>
         </div>
       </a>

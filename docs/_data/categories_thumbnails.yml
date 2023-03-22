@@ -3,3 +3,21 @@ bathroom:
   alt: bougie blanche près d'une baignoire en céramique blanche
   author: Photo de <a href="https://unsplash.com/fr/@rarchitecture_melbourne?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">R ARCHITECTURE</a> sur <a href="https://unsplash.com/fr/photos/M6E8SO73MPY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   path: /bathroom/bathroom.jpeg
+
+kitchen:
+  source: https://unsplash.com/fr/photos/-aDGbdTsBZg
+  alt: meubles de cuisine blancs et marrons
+  author: Photo de <a href="https://unsplash.com/fr/@collovhome?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Collov Home Design</a> sur <a href="https://unsplash.com/fr/photos/-aDGbdTsBZg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  path: /kitchen/kitchen.jpeg
+
+bedroom:
+  source: https://unsplash.com/fr/photos/nEtpvJjnPVo
+  alt: lit blanc avec draps gris et blancs, coussins gris, blans et oranges
+  author: Photo de <a href="https://unsplash.com/@spacejoy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Spacejoy</a> sur <a href="https://unsplash.com/fr/photos/nEtpvJjnPVo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  path: /bedroom/bedroom.jpeg
+
+cleaning:
+  source: https://unsplash.com/fr/photos/o-QHS4pQWtY
+  alt: une collection de produits de soins personnels disposés sur une surface blanche
+  author: Photo de <a href="https://unsplash.com/@kinn_living?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">KINN Living</a> sur <a href="https://unsplash.com/fr/photos/o-QHS4pQWtY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  path: /cleaning/cleaning.jpeg

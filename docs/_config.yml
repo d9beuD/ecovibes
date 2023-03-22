@@ -40,3 +40,16 @@ plugins:
 # SEO
 locale: fr_FR
 social:
+
+collections:
+  categories:
+    output: true
+    permalink: /:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: categories
+    values:
+      layout: category

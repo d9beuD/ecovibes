@@ -1,0 +1,4 @@
+---
+title: Chambre
+tag: bedroom
+---
