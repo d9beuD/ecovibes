@@ -45,5 +45,10 @@ main {
   text-shadow: 0 0 calc($spacer / 4) #000;
 }
 
+.breadcrumb-container {
+  background-color: var(--bs-tertiary-bg);
+  padding: $spacer 0;
+}
+
 @import "navbar";
 @import "background";
