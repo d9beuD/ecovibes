@@ -1,0 +1,12 @@
+---
+layout: home
+---
+
+<main class="container py-5">
+  {% for post in site.posts %}
+  {% else %}
+    <div class="alert alert-primary">
+      Il n'y a rien pour l'instant. Revenez bientôt !
+    </div>
+  {% endfor %}
+</main>

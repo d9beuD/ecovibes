@@ -9,5 +9,9 @@
     <div class="border-top py-3">
       <h3>{{ post.title }}</h3>
     </div>
+  {% else %}
+    <div class="alert alert-primary">
+      Il n'y a rien pour l'instant. Revenez bientôt !
+    </div>
   {% endfor %}
 </div>
