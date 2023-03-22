@@ -137,7 +137,7 @@
   --bs-tertiary-bg: #2b3035;
   --bs-tertiary-bg-rgb: 43, 48, 53;
   --bs-emphasis-color: #fff;
-  --bs-primary-text: #6ea8fe;
+  --bs-primary-text: #bcdabe;
   --bs-secondary-text: #dee2e6;
   --bs-success-text: #75b798;
   --bs-info-text: #6edff6;
@@ -145,7 +145,7 @@
   --bs-danger-text: #ea868f;
   --bs-light-text: #f8f9fa;
   --bs-dark-text: #dee2e6;
-  --bs-primary-bg-subtle: #031633;
+  --bs-primary-bg-subtle: #1d271d;
   --bs-secondary-bg-subtle: #212529;
   --bs-success-bg-subtle: #051b11;
   --bs-info-bg-subtle: #032830;
@@ -153,7 +153,7 @@
   --bs-danger-bg-subtle: #2c0b0e;
   --bs-light-bg-subtle: #343a40;
   --bs-dark-bg-subtle: #1a1d20;
-  --bs-primary-border-subtle: #084298;
+  --bs-primary-border-subtle: #567458;
   --bs-secondary-border-subtle: #495057;
   --bs-success-border-subtle: #0f5132;
   --bs-info-border-subtle: #055160;
