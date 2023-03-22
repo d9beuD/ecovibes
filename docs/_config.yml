@@ -42,7 +42,7 @@ locale: fr_FR
 social:
 
 collections:
-  categories:
+  kinds:
     output: true
     permalink: /:path/
 
@@ -50,6 +50,6 @@ defaults:
   -
     scope:
       path: ""
-      type: categories
+      type: kinds
     values:
       layout: category
