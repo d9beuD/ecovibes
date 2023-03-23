@@ -45,8 +45,13 @@ main {
   text-shadow: 0 0 calc($spacer / 4) #000;
 }
 
+.bg-high-contrast,
+.card.card-product,
 .breadcrumb-container {
   background-color: var(--bs-tertiary-bg);
+}
+
+.breadcrumb-container {
   padding: $spacer 0;
 }
 
