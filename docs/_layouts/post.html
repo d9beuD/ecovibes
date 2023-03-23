@@ -14,6 +14,10 @@
       <div class="col-md-8 mb-4">
         <div class="mb-4">
           <h1 class="mb-0">{{ page.title }}</h1>
+          <small class="text-muted">
+            Publié par <b>{{ page.author }}</b> le
+            <b>{{ page.date | localize: page.date_format }}</b>.
+          </small>
         </div>
 
         <div class="text-center mb-3">
