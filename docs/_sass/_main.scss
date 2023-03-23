@@ -55,5 +55,9 @@ main {
   padding: $spacer 0;
 }
 
+.article-image {
+  border-radius: 80% 20% 80% 20% / 16% 38% 62% 84% ;
+}
+
 @import "navbar";
 @import "background";
