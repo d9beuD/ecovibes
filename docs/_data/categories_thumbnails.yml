@@ -21,3 +21,9 @@ cleaning:
   alt: une collection de produits de soins personnels disposés sur une surface blanche
   author: Photo de <a href="https://unsplash.com/@kinn_living?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">KINN Living</a> sur <a href="https://unsplash.com/fr/photos/o-QHS4pQWtY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   path: /cleaning/cleaning.jpeg
+
+daily-things:
+  source: https://unsplash.com/fr/photos/_AR74EoWdy0
+  alt: stylo rétractable noir sur un livre ouvert à côté d'une tasse à café imprimée go get'em rouge et blanche
+  author: Photo de <a href="https://unsplash.com/de/@kylejglenn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kyle Glenn</a> sur <a href="https://unsplash.com/fr/photos/_AR74EoWdy0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  path: /daily-things/daily-things.jpeg
