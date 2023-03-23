@@ -1,8 +1,8 @@
 {% assign base_url = "/assets/images/categories" %}
 
-<div class="row justify-content-around">
+<div class="row justify-content-center">
   {% for category in site.kinds %}
-    <div class="col-8 col-sm-6 col-md-5 col-xl-3 mb-3">
+    <div class="col-8 col-sm-6 col-md-5 col-xl-4 mb-3">
       <a href="{{ category.url }}">
         <div class="card category text-bg-dark">
           {% assign thumbnail = site.data.categories_thumbnails[category.tag] %}
