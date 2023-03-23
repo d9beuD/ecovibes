@@ -7,6 +7,7 @@ product:
   href: https://amzn.to/42wKuA5
   thumbnail: https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B089B574B4&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=d9beud07-21&language=fr_FR
   description: Les brosses à dents Greenzla sont durables, respectueuses de l'environnement, économiques et dotées de poils doux sans BPA, avec un manche en bambou naturel et une garantie de remboursement.
+image: /assets/images/posts/bamboo-toothbrush-biodegradable.jpg
 ---
 
 Vous cherchez une alternative écologique à votre brosse à dents en plastique ? Ne cherchez plus ! La brosse à dents en bambou est là pour vous sauver la mise. Elle est respectueuse de l'environnement, durable et, en plus, elle peut vous aider à avoir des dents saines. Dans cet article, nous allons vous expliquer pourquoi vous devriez adopter la brosse à dents en bambou, et comment elle peut vous aider à réduire votre empreinte carbone.
