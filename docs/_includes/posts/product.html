@@ -1,0 +1,26 @@
+{% assign product = include.product %}
+<div class="mb-3">
+  <div class="card card-product">
+    <div class="row g-0">
+      <div
+        class="col-4 col-lg-3 rounded-start"
+        style="
+          background-image: url({{ product.thumbnail }});
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        "
+      >
+      </div>
+
+      <div class="col">
+        <div class="card-body">
+          <h5 class="card-title h6 fw-bold">{{ product.name }}</h5>
+          <p class="card-text d-none d-md-block">{{ product.description }}</p>
+          <a href="{{ product.href }}" class="stretched-link">Découvrir le produit</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <small class="text-muted">Ceci n'est pas une publicité, il s'agit d'un lien affilié.</small>
+</div>

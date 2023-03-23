@@ -1,0 +1,52 @@
+---
+  layout: home
+---
+
+{% assign tag = page.categories | first %}
+{% assign category = site.kinds | where: "tag", page.categories | first %}
+{% assign related = site.categories[tag] | limit: 5 %}
+
+{% include posts/breadcrumb.html category=category %}
+
+<article class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mb-4">
+        <div class="mb-4">
+          <h1 class="mb-0">{{ page.title }}</h1>
+          <small class="text-muted">
+            Publié par <b>{{ page.author }}</b> le
+            <b>{{ page.date | localize: page.date_format }}</b>.
+          </small>
+        </div>
+
+        <div class="text-center mb-3">
+          <img
+            src="{{ page.image }}"
+            srcset="{{ page.image | srcset }}"
+            alt="Image de l'article"
+            class="img-fluid article-image shadow-lg"
+            style="max-height: 20rem;"
+          >
+        </div>
+
+        {{ page.content }}
+      </div>
+
+      <div class="col">
+        <div class="sticky-top mt-n4 pt-4">
+          <div class="card mb-4 sticky-top bg-high-contrast">
+            <div class="card-body">
+              <h5 class="card-title">Articles liés</h5>
+              <ul class="list-unstyled card-text">
+                {% for post in related %}
+                  {% include posts/post-excerpt-small.html post=post %}
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

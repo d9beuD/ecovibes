@@ -1,0 +1,22 @@
+<div class="breadcrumb-container">
+  <nav class="container" aria-label="breadcrumb">
+    <ol class="breadcrumb mb-0">
+      <li class="me-2">
+        <i class="fa-solid fa-signs-post"></i>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="/">Accueil</a>
+      </li>
+
+      <li class="breadcrumb-item">
+        <a href="/{{ page.categories | first }}/">
+          {{ include.category.title }}
+        </a>
+      </li>
+
+      <li class="breadcrumb-item active" aria-current="page">
+        {{ page.title | truncatewords: 7 }}
+      </li>
+    </ol>
+  </nav>
+</div>

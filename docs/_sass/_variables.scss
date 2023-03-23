@@ -17,6 +17,7 @@ $body-color:                   mix($gray-900, $primary, 80%);
 $body-bg:                      $secondary;
 $body-secondary-color:         rgba($body-color, .75);
 $body-secondary-bg:            mix($gray-100, $secondary, 50%);
+$border-color:                 $gray-500;
 
 $body-color-dark:                   mix($gray-200, $primary, 80%);
 $body-bg-dark:                      mix($gray-900, $primary, 80%);
