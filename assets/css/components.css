@@ -36,6 +36,20 @@ main > section {
   text-shadow: 0 0 0.25rem #000;
 }
 
+.bg-high-contrast,
+.card.card-product,
+.breadcrumb-container {
+  background-color: var(--bs-tertiary-bg);
+}
+
+.breadcrumb-container {
+  padding: 1rem 0;
+}
+
+.article-image {
+  border-radius: 80% 20% 80% 20%/16% 38% 62% 84%;
+}
+
 .navbar-brand {
   font-family: playlist-script;
   font-weight: normal;
