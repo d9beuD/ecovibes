@@ -20,15 +20,17 @@
           </small>
         </div>
 
-        <div class="text-center mb-3">
-          <img
-            src="{{ page.image }}"
-            srcset="{{ page.image | srcset }}"
-            alt="Image de l'article"
-            class="img-fluid article-image shadow-lg"
-            style="max-height: 20rem;"
-          >
-        </div>
+        {% if page.image %}
+          <div class="text-center mb-3">
+            <img
+              src="{{ page.image }}"
+              srcset="{{ page.image | srcset }}"
+              alt="Image de l'article"
+              class="img-fluid article-image shadow-lg"
+              style="max-height: 20rem;"
+            >
+          </div>
+        {% endif %}
 
         {{ page.content }}
       </div>
