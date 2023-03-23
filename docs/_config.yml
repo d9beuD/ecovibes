@@ -1,16 +1,30 @@
 domain: ecovibes.fr
-url: "https://ecovibes.fr"
 baseurl: ""
-title: |
-  EcoVibes - Produits éco-friendly et articles de blog pour un mode de vie
-  durable
 
+# SEO
+locale: fr_FR
+title: EcoVibes
 description: |
   Chez EcoVibes, trouvez une sélection de produits éco-friendly pour votre
   maison, votre cuisine, votre mode de vie et vos voyages. Découvrez également
   nos articles de blog sur les dernières tendances en matière d'écologie.
   Rejoignez notre communauté de passionnés de l'environnement et achetez avec
   EcoVibes aujourd'hui !
+tagline: Votre destination pour des produits durables et écologiques
+url: "https://ecovibes.fr"
+
+author:
+  name: Vincent BATHELIER
+  url: https://d9beud.com
+
+twitter:
+  username: d9beud
+  card: summary
+
+logo: /assets/images/logo-ecovibes.jpg
+
+webmaster_verifications:
+  google: PlBQn-nTE4y9J7GKAq94KJa2Slx4vuMBWA4cctw70K8
 
 timezone: Europe/Paris
 
@@ -37,10 +51,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-responsive-magick
   - jekyll-date-localization
-
-# SEO
-locale: fr_FR
-social:
 
 # Internationalization
 date_locale: fr
