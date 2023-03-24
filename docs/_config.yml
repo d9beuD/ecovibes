@@ -68,9 +68,7 @@ pagination:
   collection: posts, kinds
 
 collections:
-  kinds:
-    output: true
-    permalink: /:path/
+  - kinds
 
 defaults:
   -
