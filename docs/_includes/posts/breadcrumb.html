@@ -8,15 +8,23 @@
         <a href="/">Accueil</a>
       </li>
 
-      <li class="breadcrumb-item">
-        <a href="/{{ page.categories | first }}/">
-          {{ include.category.title }}
-        </a>
-      </li>
+      {% if include.category_tag %}
+        <li class="breadcrumb-item">
+          <a href="/{{ include.category_tag }}/">
+            {{ include.category }}
+          </a>
+        </li>
+      {% else %}
+       <li class="breadcrumb-item active">
+          {{ include.category }}
+       </li>
+      {% endif %}
 
-      <li class="breadcrumb-item active" aria-current="page">
-        {{ page.title | truncatewords: 7 }}
-      </li>
+      {% if include.title %}
+        <li class="breadcrumb-item active" aria-current="page">
+          {{ page.title | truncatewords: 7 }}
+        </li>
+      {% endif %}
     </ol>
   </nav>
 </div>

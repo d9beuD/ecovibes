@@ -1,20 +1,16 @@
 ---
 layout: home
+title: Derniers articles
 pagination:
   enabled: true
 ---
 
-{% include posts/breadcrumb.html category=page.category %}
-
-{% assign posts = paginator.posts %}
-
 <div class="container py-5">
-  <h1 class="mb-4">Catégorie : {{ page.title }}</h1>
-  {% for post in posts %}
+  <h1 class="mb-4">{{ page.title }}</h1>
+  {% for post in paginator.posts %}
     <div class="border-top py-3">
       {% include posts/post-excerpt.html post=post %}
     </div>
-
   {% else %}
     <div class="alert alert-primary">
       Il n'y a rien pour l'instant. Revenez bientôt !
@@ -66,4 +62,5 @@ pagination:
       </ul>
     </nav>
   {% endif %}
+
 </div>

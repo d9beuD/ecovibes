@@ -3,7 +3,7 @@
 <div class="row justify-content-center">
   {% for category in site.kinds %}
     <div class="col-8 col-sm-6 col-md-5 col-xl-4 mb-3">
-      <a href="{{ category.url }}">
+      <a href="/{{ category.tag }}/">
         <div class="card category text-bg-dark rounded-4 border-primary">
           {% assign thumbnail = site.data.categories_thumbnails[category.tag] %}
           {% capture path %}{{ base_url }}{{ thumbnail.path }}{% endcapture %}

@@ -35,6 +35,8 @@ GEM
       i18n (~> 1.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate-v2 (3.0.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-responsive-magick (1.1.1)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
@@ -77,6 +79,7 @@ DEPENDENCIES
   jekyll (~> 4.3.2)
   jekyll-date-localization
   jekyll-feed (~> 0.12)
+  jekyll-paginate-v2
   jekyll-responsive-magick
   jekyll-seo-tag (~> 2.6)
   jekyll-sitemap (~> 1.4)
