@@ -6,7 +6,7 @@
 {% assign category = site.kinds | where: "tag", tag | first %}
 {% assign related = site.categories[tag] | limit: 5 %}
 
-{% include posts/breadcrumb.html category=category %}
+{% include posts/breadcrumb.html category=category.title category_tag=tag title=page.title %}
 
 <article class="py-5">
   <div class="container">
