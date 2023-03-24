@@ -50,6 +50,10 @@ main > section {
   border-radius: 80% 20% 80% 20%/16% 38% 62% 84%;
 }
 
+.article-excerpt-small:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .ratio-background {
   background-size: cover;
   background-position: center;
