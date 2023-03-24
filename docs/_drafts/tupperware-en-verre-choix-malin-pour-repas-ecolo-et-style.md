@@ -3,6 +3,11 @@ title: "Tupperware en verre : le choix malin pour un repas écolo et stylé"
 categories:
   - kitchen
 image: /assets/images/posts/glass-tupperware-with-food.jpg
+product:
+  name: Récipients en Verre avec clips de Fermeture pour Conservation Alimentaire
+  href: https://amzn.to/3lC0ss4
+  thumbnail: https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B073ZP5Z2X&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=d9beud07-21&language=fr_FR
+  description: "Lot de 7 récipients alimentaires en verre avec couvercles assortis : 4 récipients rectangulaires, 1 récipient rond de 796 ml et 2 récipients ronds de 332 ml"
 ---
 
 Vous cherchez un moyen **écologique et pratique** de stocker vos aliments ? Les tupperwares en verre sont la solution **idéale** pour vous ! En plus d'être respectueux de l'environnement, ils offrent de nombreux avantages tels que leur grande résistance et leur facilité de nettoyage. Dans cet article, nous allons explorer les différents avantages des tupperwares en verre et pourquoi ils sont le choix parfait pour un repas écolo et stylé.
@@ -16,6 +21,8 @@ Grâce à leur **résistance exceptionnelle**, les tupperwares en verre sont dur
 ## L'aspect écologique des tupperwares en verre
 
 En choisissant les tupperwares en verre, vous faites un choix écologique en **réduisant considérablement** la quantité de déchets plastiques produits. Saviez-vous que chaque année, **des millions de tonnes de déchets plastiques** sont jetés dans les océans et sur les terres dans le monde ? En optant pour les tupperwares en verre, vous **contribuez à la réduction** de cette quantité. Et comme ils sont recyclables, vous pouvez les réutiliser à l'infini, ce qui est un énorme avantage pour préserver notre planète.
+
+{% include posts/product.html product=page.product %}
 
 ## L'esthétique des tupperwares en verre
 
