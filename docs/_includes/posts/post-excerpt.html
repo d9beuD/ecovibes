@@ -1,9 +1,24 @@
 {% assign post = include.post %}
 
-<h3 class="d-flex justify-content-between">
-  <a href="{{ post.url }}">{{ post.title }}</a>
-  <small class="text-muted">{{ post.date | localize: page.date_format }}</small>
-</h3>
-<p>
-  {{ post.excerpt }}
-</p>
+<div class="row position-relative">
+  <div class="col-4 col-sm-3">
+    <div class="h-100 ratio-background" style="background-image: url({{ post.image }});"></div>
+  </div>
+
+  <div class="col">
+    <div class="row">
+      <div class="col-12 col-md">
+        <h4 class="d-flex justify-content-between">
+          <a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a>
+        </h4>
+      </div>
+
+      <div class="col-auto">
+        <small class="text-muted">{{ post.date | localize: page.date_format }}</small>
+      </div>
+    </div>
+    <p class="d-none d-md-block">
+      {{ post.excerpt | strip_html }}
+    </p>
+  </div>
+</div>

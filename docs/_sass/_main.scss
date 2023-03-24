@@ -59,5 +59,20 @@ main {
   border-radius: 80% 20% 80% 20% / 16% 38% 62% 84% ;
 }
 
+.ratio-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.article-content > p:first-of-type {
+  font-size: $spacer * 1.25;
+  font-weight: 300;
+}
+
+.alert .col > p:last-child {
+  margin-bottom: 0;
+}
+
 @import "navbar";
 @import "background";

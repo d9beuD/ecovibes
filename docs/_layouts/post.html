@@ -11,7 +11,7 @@
 <article class="py-5">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 mb-4">
+      <div class="col-md-8 mb-4 article-content">
         <div class="mb-4">
           <h1 class="mb-0">{{ page.title }}</h1>
           <small class="text-muted">
@@ -25,6 +25,7 @@
             <img
               src="{{ page.image }}"
               srcset="{{ page.image | srcset }}"
+              sizes="(max-width: 480px) 100vw, 480px"
               alt="Image de l'article"
               class="img-fluid article-image shadow-lg"
               style="max-height: 20rem;"
