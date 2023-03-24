@@ -1,0 +1,66 @@
+---
+layout: home
+title: Derniers articles
+pagination:
+  enabled: true
+---
+
+<div class="container py-5">
+  <h1 class="mb-4">{{ page.title }}</h1>
+  {% for post in paginator.posts %}
+    <div class="border-top py-3">
+      {% include posts/post-excerpt.html post=post %}
+    </div>
+  {% else %}
+    <div class="alert alert-primary">
+      Il n'y a rien pour l'instant. Revenez bientôt !
+    </div>
+  {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+    <nav>
+      <ul class="pagination justify-content-center">
+        {% if paginator.previous_page %}
+          <li class="page-item">
+            <a class="page-link" href="{{ paginator.previous_page_path }}" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="visually-hidden">Précédent</span>
+            </a>
+          </li>
+        {% else %}
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="visually-hidden">Précédent</span>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if paginator.page_trail %}
+          {% for trail in paginator.page_trail %}
+            <li {% if page.url == trail.path %}class="page-item active"{% else %}class="page-item"{% endif %}>
+                <a href="{{ trail.path | prepend: site.baseurl }}" class="page-link" title="{{trail.title}}">{{ trail.num }}</a>
+            </li>
+          {% endfor %}
+        {% endif %}
+
+        {% if paginator.next_page %}
+          <li class="page-item">
+            <a class="page-link" href="{{ paginator.next_page_path }}" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="visually-hidden">Suivant</span>
+            </a>
+          </li>
+        {% else %}
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="visually-hidden">Suivant</span>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
+  {% endif %}
+
+</div>
