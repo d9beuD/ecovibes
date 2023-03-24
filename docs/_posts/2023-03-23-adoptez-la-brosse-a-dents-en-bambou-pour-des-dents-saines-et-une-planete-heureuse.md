@@ -10,15 +10,15 @@ product:
 image: /assets/images/posts/bamboo-toothbrush-biodegradable.jpg
 ---
 
-Vous cherchez une alternative écologique à votre brosse à dents en plastique ? Ne cherchez plus ! La brosse à dents en bambou est là pour vous sauver la mise. Elle est respectueuse de l'environnement, durable et, en plus, elle peut vous aider à avoir des dents saines. Dans cet article, nous allons vous expliquer pourquoi vous devriez adopter la brosse à dents en bambou, et comment elle peut vous aider à réduire votre empreinte carbone.
+Vous cherchez une **alternative écologique** à votre brosse à dents en plastique ? Ne cherchez plus ! La brosse à dents en bambou est là pour vous sauver la mise. Elle est **respectueuse de l'environnement**, durable et, en plus, elle peut vous aider à avoir des dents saines. Dans cet article, nous allons vous expliquer pourquoi vous devriez adopter la brosse à dents en bambou, et comment elle peut vous aider à réduire votre empreinte carbone.
 
 ## Pourquoi choisir la brosse à dents en bambou ?
 
-Premièrement, la brosse à dents en bambou est respectueuse de l'environnement. Contrairement aux brosses à dents en plastique, qui mettent des siècles à se décomposer, les brosses à dents en bambou sont biodégradables. Elles ne polluent donc pas notre environnement.
+Dans un premier temps, la brosse à dents en bambou est respectueuse de l'environnement. Contrairement aux brosses à dents en plastique, qui **mettent des siècles à se décomposer**, les brosses à dents en bambou sont **biodégradables**. Elles ne polluent donc pas notre environnement.
 
-Deuxièmement, la brosse à dents en bambou est durable. Les brosses à dents en plastique ont souvent des poils qui se déforment rapidement, alors que les poils des brosses à dents en bambou sont plus résistants. En choisissant une brosse à dents en bambou, vous réduisez également la quantité de déchets que vous produisez, car elle durera plus longtemps qu'une brosse à dents en plastique.
+Dans un second temps, elle est également durable. Celles en plastique ont souvent des poils qui se déforment rapidement, alors que les poils des brosses à dents en bambou sont **plus résistants**. En choisissant une brosse éco-responsable, vous réduisez également la quantité de déchets que vous produisez, car elle durera plus longtemps qu'une brosse à dents en plastique.
 
-Enfin, la brosse à dents en bambou peut aider à réduire votre empreinte carbone. La production de plastique est une source importante de gaz à effet de serre, tandis que la production de bambou est plus respectueuse de l'environnement. En choisissant une brosse à dents en bambou, vous contribuez donc à réduire votre empreinte carbone.
+Enfin, la brosse à dents en bambou peut aider à **réduire votre empreinte carbone**. La production de plastique est une source importante de gaz à effet de serre, tandis que la production de bambou est plus respectueuse de l'environnement. En choisissant une brosse à dents en bambou, vous contribuez donc à réduire votre empreinte carbone.
 
 {% include posts/product.html product=page.product %}
 
@@ -26,8 +26,10 @@ Enfin, la brosse à dents en bambou peut aider à réduire votre empreinte carbo
 
 L'utilisation d'une brosse à dents en bambou est la même que pour une brosse à dents en plastique. Il suffit de mouiller la brosse à dents et d'appliquer du dentifrice dessus. Ensuite, vous vous brossez les dents comme d'habitude.
 
-Il est important de noter que la brosse à dents en bambou doit être remplacée tous les trois mois, comme une brosse à dents en plastique. Cependant, avant de jeter votre vieille brosse à dents en bambou, pensez à retirer les poils et à la mettre au compost. De cette façon, vous pouvez vous assurer que votre brosse à dents en bambou ne finit pas à la décharge.
+Il est important de noter que la brosse à dents en bambou doit être remplacée tous les trois mois. Cependant, avant de jeter votre vieille brosse à dents en bambou, pensez à retirer les poils et à la **mettre au compost**. De cette façon, vous pouvez vous assurer que votre brosse à dents en bambou **ne finit pas à la décharge**.
 
 ## Conclusion
 
-En choisissant une brosse à dents en bambou, vous pouvez prendre soin de vos dents tout en contribuant à la protection de l'environnement. C'est une solution écologique et durable qui peut réduire votre empreinte carbone et aider à protéger notre planète. Alors pourquoi ne pas essayer une brosse à dents en bambou dès maintenant ? Vos dents et la planète vous en remercieront !
+En choisissant une brosse à dents en bambou, vous pouvez **prendre soin de vos dents** tout en contribuant à la **protection de l'environnement**. C'est une solution écologique et durable qui peut réduire votre empreinte carbone et aider à protéger notre planète. Alors pourquoi ne pas essayer une brosse à dents en bambou dès maintenant ? Vos dents et la planète vous en remercieront !
+
+{% capture info %}
