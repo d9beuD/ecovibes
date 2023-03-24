@@ -59,6 +59,10 @@ main {
   border-radius: 80% 20% 80% 20% / 16% 38% 62% 84% ;
 }
 
+.article-excerpt-small:not(:last-child) {
+  margin-bottom: $spacer;
+}
+
 .ratio-background {
   background-size: cover;
   background-position: center;
