@@ -4,12 +4,12 @@
   {% for category in site.kinds %}
     <div class="col-8 col-sm-6 col-md-5 col-xl-4 mb-3">
       <a href="{{ category.url }}">
-        <div class="card category text-bg-dark">
+        <div class="card category text-bg-dark rounded-4 border-primary">
           {% assign thumbnail = site.data.categories_thumbnails[category.tag] %}
           {% capture path %}{{ base_url }}{{ thumbnail.path }}{% endcapture %}
           <img
             alt="{{ thumbnail.alt }}"
-            class="card-img"
+            class="card-img rounded-4"
             src="{{ path }}"
             srcset="{{ path | srcset }}"
             width="400px">
