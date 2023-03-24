@@ -50,6 +50,21 @@ main > section {
   border-radius: 80% 20% 80% 20%/16% 38% 62% 84%;
 }
 
+.ratio-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.article-content > p:first-of-type {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.alert .col > p:last-child {
+  margin-bottom: 0;
+}
+
 .navbar-brand {
   font-family: playlist-script;
   font-weight: normal;
