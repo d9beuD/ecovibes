@@ -65,5 +65,10 @@ main {
   background-repeat: no-repeat;
 }
 
+.article-content > p:first-of-type {
+  font-size: $spacer * 1.25;
+  font-weight: 300;
+}
+
 @import "navbar";
 @import "background";
