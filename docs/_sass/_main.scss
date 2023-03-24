@@ -70,5 +70,9 @@ main {
   font-weight: 300;
 }
 
+.alert .col > p:last-child {
+  margin-bottom: 0;
+}
+
 @import "navbar";
 @import "background";

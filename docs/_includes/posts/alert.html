@@ -1,0 +1,12 @@
+{% assign level = include.level | default: 'light' %}
+
+<div class="alert alert-{{ level }}">
+  <div class="row gx-2">
+    <div class="col-auto">
+      <i class="fa-solid fa-circle-info"></i>
+    </div>
+    <div class="col">
+      {{ include.content | markdownify }}
+    </div>
+  </div>
+</div>
