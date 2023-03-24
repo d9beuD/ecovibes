@@ -18,6 +18,16 @@
             Publié par <b>{{ page.author }}</b> le
             <b>{{ page.date | localize: page.date_format }}</b>.
           </small>
+          <div class="row g-1">
+            {% for tag in page.categories %}
+              {% assign category = site.kinds | where: 'tag', tag | first %}
+              <div class="col-auto">
+                <span class="badge text-bg-primary">
+                  {{ category.title }}
+                </span>
+              </div>
+            {% endfor %}
+          </div>
         </div>
 
         {% if page.image %}
