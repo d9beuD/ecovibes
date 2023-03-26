@@ -66,6 +66,7 @@ pagination:
     before: 2
     after: 2
   collection: posts, kinds
+  sort_reverse: true
 
 collections:
   - kinds
