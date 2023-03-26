@@ -83,6 +83,8 @@ defaults:
       path: ""
     values:
       date_format: "%d %B %Y"
+      social:
+        facebook: https://www.facebook.com/profile.php?id=100090322222954
 
   -
     scope:
