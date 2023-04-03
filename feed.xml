@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://ecovibes.fr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ecovibes.fr/" rel="alternate" type="text/html" /><updated>2023-03-31T19:22:16+02:00</updated><id>https://ecovibes.fr/feed.xml</id><title type="html">EcoVibes</title><subtitle>Chez EcoVibes, trouvez une sélection de produits éco-friendly pour votre
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://ecovibes.fr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ecovibes.fr/" rel="alternate" type="text/html" /><updated>2023-04-03T12:01:49+02:00</updated><id>https://ecovibes.fr/feed.xml</id><title type="html">EcoVibes</title><subtitle>Chez EcoVibes, trouvez une sélection de produits éco-friendly pour votre
 maison, votre cuisine, votre mode de vie et vos voyages. Découvrez également
 nos articles de blog sur les dernières tendances en matière d&apos;écologie.
 Rejoignez notre communauté de passionnés de l&apos;environnement et achetez avec
@@ -81,7 +81,7 @@ EcoVibes aujourd&apos;hui !
   <div class="card card-product">
     <div class="row g-0">
       <div class="col-4 col-lg-3 rounded-start" style="
-          background-image: url(ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B07N96GBW6&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=FR&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=d9beud07-21&amp;language=fr_FR);
+          background-image: url(https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B07N96GBW6&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=FR&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=d9beud07-21&amp;language=fr_FR);
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
