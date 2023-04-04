@@ -2,6 +2,7 @@
 title: "Les essuie-tout réutilisables en coton : la solution zéro déchet pour nettoyer sa maison"
 categories:
   - kitchen
+  - cleaning
 image: /assets/images/posts/women-drinking-tean-in-kitchen.jpg
 product:
   href: https://amzn.to/3z97NTd

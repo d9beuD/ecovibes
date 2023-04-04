@@ -5,7 +5,7 @@ categories:
 product:
   name: Gourde Isotherme Réutilisable en Acier INOX
   href: https://amzn.to/3z4CQPW
-  thumbnail: ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07N96GBW6&Format=_SL160_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=d9beud07-21&language=fr_FR
+  thumbnail: https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07N96GBW6&Format=_SL160_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=d9beud07-21&language=fr_FR
   description: L'isolation avec une double paroi maintient la température à l'intérieur de la bouteille peu importe la température extérieure. Maintient la température pour profiter de boissons fraîches jusqu'à 24 heures et chaudes jusqu'à 12 heures.
 image: /assets/images/posts/water-bottle-being-filled.jpg
 ---

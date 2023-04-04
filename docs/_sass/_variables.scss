@@ -27,6 +27,8 @@ $body-secondary-bg-dark:            mix($gray-800, $primary, 80%);
 $body-tertiary-color-dark:          rgba($body-color-dark, .5);
 $body-tertiary-bg-dark:             mix($gray-800, $gray-900, 50%);
 
+$link-color:                        mix($gray-800, $primary, 20%);
+
 $emphasis-color-dark:               $white;
 $border-color-dark:                 $gray-700;
 $border-color-translucent-dark:     rgba($white, .15);

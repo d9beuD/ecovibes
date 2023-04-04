@@ -50,10 +50,12 @@
         <div class="sticky-top mt-n4 pt-4">
           <div class="card mb-4 sticky-top bg-high-contrast">
             <div class="card-body">
-              <h5 class="card-title">Articles liés</h5>
+              <h2 class="card-title h5">Articles liés</h2>
               <ul class="list-unstyled card-text">
                 {% for post in related %}
-                  {% include posts/post-excerpt-small.html post=post %}
+                  <li>
+                    {% include posts/post-excerpt-small.html post=post %}
+                  </li>
                 {% endfor %}
               </ul>
             </div>
