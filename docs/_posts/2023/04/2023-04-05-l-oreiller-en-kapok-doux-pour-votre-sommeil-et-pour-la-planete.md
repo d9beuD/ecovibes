@@ -30,7 +30,7 @@ En somme, les oreillers en kapok offrent un sommeil de qualité supérieure grâ
 
 ## Associez votre oreiller en kapok à un matelas en latex naturel
 
-Si vous cherchez à améliorer la qualité de votre sommeil, l'oreiller en kapok est un excellent choix. Mais pour un confort de sommeil optimal, il est important de **considérer le choix de votre matelas** également. [Les matelas en latex naturel]({% post_url 2023-04-04-dormez-mieux-protegez-la-planete-avec-matelas-latex-naturel %}) sont également respectueux de l'environnement, offrent un confort de sommeil supérieur et sont durables. Alors, pour un sommeil vraiment doux et éco-responsable, envisagez **d'associer un oreiller en kapok avec un matelas en latex naturel**. Vous vous réveillerez frais et dispos, sachant que vous avez fait le choix responsable pour votre santé et pour la planète.
+Si vous cherchez à améliorer la qualité de votre sommeil, l'oreiller en kapok est un excellent choix. Mais pour un confort de sommeil optimal, il est important de **considérer le choix de votre matelas** également. [Les matelas en latex naturel]({% post_url 2023/04/2023-04-05-dormez-mieux-protegez-la-planete-avec-matelas-latex-naturel %}) sont également respectueux de l'environnement, offrent un confort de sommeil supérieur et sont durables. Alors, pour un sommeil vraiment doux et éco-responsable, envisagez **d'associer un oreiller en kapok avec un matelas en latex naturel**. Vous vous réveillerez frais et dispos, sachant que vous avez fait le choix responsable pour votre santé et pour la planète.
 
 ## Conclusion
 
