@@ -30,7 +30,7 @@ timezone: Europe/Paris
 
 # Sass
 sass:
- style: compact
+ style: compressed
 
 # Markdown
 markdown: kramdown
