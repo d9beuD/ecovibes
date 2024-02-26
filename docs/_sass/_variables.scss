@@ -1,7 +1,7 @@
 $enable-negative-margins: true;
 $enable-shadows: true;
 
-$primary: #90c292;
+$primary: #66ac67;
 $secondary: #e0eadf;
 $success: #5cb85c;
 $info: #a3d7ff;
@@ -13,8 +13,8 @@ $danger: #f88379;
 @import "bootstrap/variables-dark";
 
 // 4. Include any default map overrides here
-$body-color:                   mix($gray-900, $primary, 80%);
-$body-bg:                      $secondary;
+$body-color:                   mix($gray-900, $primary, 90%);
+$body-bg:                      mix($gray-100, $primary, 90%);
 $body-secondary-color:         rgba($body-color, .75);
 $body-secondary-bg:            mix($gray-100, $secondary, 50%);
 $border-color:                 $gray-500;
@@ -27,7 +27,7 @@ $body-secondary-bg-dark:            mix($gray-800, $primary, 80%);
 $body-tertiary-color-dark:          rgba($body-color-dark, .5);
 $body-tertiary-bg-dark:             mix($gray-800, $gray-900, 50%);
 
-$link-color:                        mix($gray-800, $primary, 20%);
+$link-color:                        mix($gray-900, $primary, 40%);
 
 $emphasis-color-dark:               $white;
 $border-color-dark:                 $gray-700;
@@ -37,7 +37,8 @@ $link-color-dark:                   mix($gray-500, $primary, 10%);
 $link-hover-color-dark:             darken($link-color-dark, 15%);
 $code-color-dark:                   $pink-300;
 
-$primary-text:            shade-color($primary, 40%);
+$primary-text:            shade-color($primary, 30%);
+$primary-text-emphasis:   shade-color($primary, 60%);
 $primary-bg-subtle:       tint-color($primary, 60%);
 $primary-border-subtle:   tint-color($primary, 30%);
 
