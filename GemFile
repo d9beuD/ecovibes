@@ -6,7 +6,7 @@ gem "jekyll", "~> 4.3.2"
 gem "jekyll-feed", "~> 0.12"
 gem "jekyll-seo-tag", "~> 2.6"
 gem "jekyll-sitemap", "~> 1.4"
-gem 'jekyll-responsive-magick'
+gem 'jekyll-responsive-magick', "~> 1.2"
 gem 'jekyll-date-localization'
 gem 'jekyll-paginate-v2'
 

@@ -37,7 +37,7 @@
 
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/assets/css/components.css">
-    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/theme.js" async></script>
     <script src="https://kit.fontawesome.com/431529382e.js" crossorigin="anonymous" async></script>
   </head>
   <body>
@@ -63,7 +63,7 @@
     <div id="main-navbar-collapse" class="collapse navbar-collapse">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a href="/articles/" class="nav-link">
+          <a href="/articles/" class="nav-link active">
             <i class="fa-solid fa-book-bookmark"></i>
             Articles
           </a>
@@ -73,7 +73,7 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a
-            class="nav-link"
+            class="nav-link active"
             href="https://www.facebook.com/profile.php?id=100090322222954"
             target="_blank"
             aria-label="Facebook"
@@ -86,7 +86,7 @@
         <li class="nav-item dropdown">
           <a
             href="#"
-            class="nav-link dropdown-toggle theme-icon-active"
+            class="nav-link dropdown-toggle theme-icon-active active"
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -135,6 +135,7 @@
   </div>
 </nav>
 
+
 <main>
   <section>
   <div class="container">
@@ -142,7 +143,7 @@
   <div class="col-lg">
     <h1 class="fw-bold">
       Des produits
-      <span class="text-primary">éco-friendly</span>
+      <span class="text-primary-emphasis">éco-friendly</span>
     </h1>
     <p class="lead">
       Bienvenue sur EcoVibes, votre destination en ligne pour les produits
@@ -191,11 +192,20 @@
           <img
             alt="bougie blanche près d'une baignoire en céramique blanche"
             class="card-img rounded-4"
-            src="/assets/images/categories/bathroom/bathroom.jpeg"
-            srcset="/assets/images/categories/bathroom/bathroom.jpeg 2683w, /assets/images/categories/bathroom/bathroom-480w.jpeg 480w, /assets/images/categories/bathroom/bathroom-768w.jpeg 768w, /assets/images/categories/bathroom/bathroom-1024w.jpeg 1024w"
-            width="400px">
+            src="/assets/images/categories/bathroom/bathroom-480w.jpeg"
+            srcset="/assets/images/categories/bathroom/bathroom.jpeg 2683w, /assets/images/categories/bathroom/bathroom-576w.jpeg 576w, /assets/images/categories/bathroom/bathroom-768w.jpeg 768w, /assets/images/categories/bathroom/bathroom-992w.jpeg 992w, /assets/images/categories/bathroom/bathroom-1200w.jpeg 1200w, /assets/images/categories/bathroom/bathroom-1400w.jpeg 1400w"
+            sizes="
+              (min-width: 576px) 244px,
+              (min-width: 768px) 274px,
+              (min-width: 992px) 374px,
+              (min-width: 1200px) 354px,
+              (min-width: 1400px) 414px,
+              75vw
+            "
+            width="480"
+          >
           <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
-            <h5 class="h2 card-title">Salle de bain</h5>
+            <h2 class="h2 card-title">Salle de bain</h2>
           </div>
         </div>
       </a>
@@ -209,11 +219,20 @@
           <img
             alt="lit blanc avec draps gris et blancs, coussins gris, blans et oranges"
             class="card-img rounded-4"
-            src="/assets/images/categories/bedroom/bedroom.jpeg"
-            srcset="/assets/images/categories/bedroom/bedroom.jpeg 4096w, /assets/images/categories/bedroom/bedroom-480w.jpeg 480w, /assets/images/categories/bedroom/bedroom-768w.jpeg 768w, /assets/images/categories/bedroom/bedroom-1024w.jpeg 1024w"
-            width="400px">
+            src="/assets/images/categories/bedroom/bedroom-480w.jpeg"
+            srcset="/assets/images/categories/bedroom/bedroom.jpeg 4096w, /assets/images/categories/bedroom/bedroom-576w.jpeg 576w, /assets/images/categories/bedroom/bedroom-768w.jpeg 768w, /assets/images/categories/bedroom/bedroom-992w.jpeg 992w, /assets/images/categories/bedroom/bedroom-1200w.jpeg 1200w, /assets/images/categories/bedroom/bedroom-1400w.jpeg 1400w"
+            sizes="
+              (min-width: 576px) 244px,
+              (min-width: 768px) 274px,
+              (min-width: 992px) 374px,
+              (min-width: 1200px) 354px,
+              (min-width: 1400px) 414px,
+              75vw
+            "
+            width="480"
+          >
           <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
-            <h5 class="h2 card-title">Chambre</h5>
+            <h2 class="h2 card-title">Chambre</h2>
           </div>
         </div>
       </a>
@@ -227,11 +246,20 @@
           <img
             alt="une collection de produits de soins personnels disposés sur une surface blanche"
             class="card-img rounded-4"
-            src="/assets/images/categories/cleaning/cleaning.jpeg"
-            srcset="/assets/images/categories/cleaning/cleaning.jpeg 5304w, /assets/images/categories/cleaning/cleaning-480w.jpeg 480w, /assets/images/categories/cleaning/cleaning-768w.jpeg 768w, /assets/images/categories/cleaning/cleaning-1024w.jpeg 1024w"
-            width="400px">
+            src="/assets/images/categories/cleaning/cleaning-480w.jpeg"
+            srcset="/assets/images/categories/cleaning/cleaning.jpeg 5304w, /assets/images/categories/cleaning/cleaning-576w.jpeg 576w, /assets/images/categories/cleaning/cleaning-768w.jpeg 768w, /assets/images/categories/cleaning/cleaning-992w.jpeg 992w, /assets/images/categories/cleaning/cleaning-1200w.jpeg 1200w, /assets/images/categories/cleaning/cleaning-1400w.jpeg 1400w"
+            sizes="
+              (min-width: 576px) 244px,
+              (min-width: 768px) 274px,
+              (min-width: 992px) 374px,
+              (min-width: 1200px) 354px,
+              (min-width: 1400px) 414px,
+              75vw
+            "
+            width="480"
+          >
           <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
-            <h5 class="h2 card-title">Nettoyage</h5>
+            <h2 class="h2 card-title">Nettoyage</h2>
           </div>
         </div>
       </a>
@@ -245,11 +273,20 @@
           <img
             alt="stylo rétractable noir sur un livre ouvert à côté d'une tasse à café imprimée go get'em rouge et blanche"
             class="card-img rounded-4"
-            src="/assets/images/categories/daily-things/daily-things.jpeg"
-            srcset="/assets/images/categories/daily-things/daily-things.jpeg 5120w, /assets/images/categories/daily-things/daily-things-480w.jpeg 480w, /assets/images/categories/daily-things/daily-things-768w.jpeg 768w, /assets/images/categories/daily-things/daily-things-1024w.jpeg 1024w"
-            width="400px">
+            src="/assets/images/categories/daily-things/daily-things-480w.jpeg"
+            srcset="/assets/images/categories/daily-things/daily-things.jpeg 5120w, /assets/images/categories/daily-things/daily-things-576w.jpeg 576w, /assets/images/categories/daily-things/daily-things-768w.jpeg 768w, /assets/images/categories/daily-things/daily-things-992w.jpeg 992w, /assets/images/categories/daily-things/daily-things-1200w.jpeg 1200w, /assets/images/categories/daily-things/daily-things-1400w.jpeg 1400w"
+            sizes="
+              (min-width: 576px) 244px,
+              (min-width: 768px) 274px,
+              (min-width: 992px) 374px,
+              (min-width: 1200px) 354px,
+              (min-width: 1400px) 414px,
+              75vw
+            "
+            width="480"
+          >
           <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
-            <h5 class="h2 card-title">Quotidien</h5>
+            <h2 class="h2 card-title">Quotidien</h2>
           </div>
         </div>
       </a>
@@ -263,11 +300,20 @@
           <img
             alt="meubles de cuisine blancs et marrons"
             class="card-img rounded-4"
-            src="/assets/images/categories/kitchen/kitchen.jpeg"
-            srcset="/assets/images/categories/kitchen/kitchen.jpeg 3000w, /assets/images/categories/kitchen/kitchen-480w.jpeg 480w, /assets/images/categories/kitchen/kitchen-768w.jpeg 768w, /assets/images/categories/kitchen/kitchen-1024w.jpeg 1024w"
-            width="400px">
+            src="/assets/images/categories/kitchen/kitchen-480w.jpeg"
+            srcset="/assets/images/categories/kitchen/kitchen.jpeg 3000w, /assets/images/categories/kitchen/kitchen-576w.jpeg 576w, /assets/images/categories/kitchen/kitchen-768w.jpeg 768w, /assets/images/categories/kitchen/kitchen-992w.jpeg 992w, /assets/images/categories/kitchen/kitchen-1200w.jpeg 1200w, /assets/images/categories/kitchen/kitchen-1400w.jpeg 1400w"
+            sizes="
+              (min-width: 576px) 244px,
+              (min-width: 768px) 274px,
+              (min-width: 992px) 374px,
+              (min-width: 1200px) 354px,
+              (min-width: 1400px) 414px,
+              75vw
+            "
+            width="480"
+          >
           <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
-            <h5 class="h2 card-title">Cuisine</h5>
+            <h2 class="h2 card-title">Cuisine</h2>
           </div>
         </div>
       </a>
@@ -279,6 +325,7 @@
 </section>
 
 </main>
+
 <footer class="footer">
   <div class="container">
     Ce site a été développé par <a href="https://d9beud.com">Vincent BATHELIER</a> avec <a href="https://jekyllrb.com/">Jekyll</a> et est
@@ -286,6 +333,8 @@
   </div>
 </footer>
 
-    <script src="/assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+<script type="module">
+  import bootstrap from 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/+esm'
+</script>
   </body>
 </html>
