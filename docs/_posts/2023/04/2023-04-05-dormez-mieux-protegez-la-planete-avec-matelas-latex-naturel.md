@@ -4,8 +4,8 @@ category: bedroom
 image: /assets/images/posts/a-girl-waking-up-on-her-bed.jpg
 product:
   name: Matelas Latex Naturel 80 Kg/m3 déhoussable
-  href: https://amzn.to/3m8AFYT
-  thumbnail: https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B071VX86G3&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=d9beud07-21&language=fr_FR
+  href: https://amzn.to/48qntAI
+  thumbnail: https://m.media-amazon.com/images/I/914d3KFuBSL._AC_SL1500_.jpg
   description: 7 zones de confort pour épouser parfaitement toutes les formes de votre corps et permettre une position parfaite de votre colonne vertébrale en réduisant les pressions. Vous bougerez moins dans le lit et votre sommeil sera ainsi plus profond.
 ---
 

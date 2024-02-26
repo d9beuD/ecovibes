@@ -4,8 +4,8 @@ categories:
   - bathroom
 product:
   name: Greenzla Brosses à dents en bambou (paquet de 12)
-  href: https://amzn.to/42wKuA5
-  thumbnail: https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B089B574B4&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=d9beud07-21&language=fr_FR
+  href: https://amzn.to/3PkwdSn
+  thumbnail: https://m.media-amazon.com/images/I/818HQZIZgZL._AC_SL1500_.jpg
   description: Les brosses à dents Greenzla sont durables, respectueuses de l'environnement, économiques et dotées de poils doux sans BPA, avec un manche en bambou naturel et une garantie de remboursement.
 image: /assets/images/posts/bamboo-toothbrush-biodegradable.jpg
 ---

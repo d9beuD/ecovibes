@@ -5,8 +5,8 @@ categories:
 image: /assets/images/posts/glass-tupperware-with-food.jpg
 product:
   name: Récipients en Verre avec clips de Fermeture pour Conservation Alimentaire
-  href: https://amzn.to/3lC0ss4
-  thumbnail: https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B073ZP5Z2X&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=d9beud07-21&language=fr_FR
+  href: https://amzn.to/42XvwDR
+  thumbnail: https://m.media-amazon.com/images/I/71JfqFSkZfL._AC_SL1500_.jpg
   description: "Lot de 7 récipients alimentaires en verre avec couvercles assortis : 4 récipients rectangulaires, 1 récipient rond de 796 ml et 2 récipients ronds de 332 ml"
 ---
 

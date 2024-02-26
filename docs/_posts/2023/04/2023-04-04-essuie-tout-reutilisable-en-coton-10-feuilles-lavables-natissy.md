@@ -5,9 +5,9 @@ categories:
   - cleaning
 image: /assets/images/posts/women-drinking-tean-in-kitchen.jpg
 product:
-  href: https://amzn.to/3z97NTd
   name: Essuie-tout lavable et réutilisable, paquet de 10
-  thumbnail: https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B088T7HX8P&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=d9beud07-21&language=fr_FR
+  href: https://amzn.to/4bLbpgp
+  thumbnail: https://m.media-amazon.com/images/I/91DjFwGADFL._AC_SL1500_.jpg
   description: Ces feuilles très absorbantes idéales pour essuyer déversements accidentels, taches & autres désastres, sur tous types de surface.
 ---
 

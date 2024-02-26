@@ -5,13 +5,13 @@ image: /assets/images/posts/candles-on-table-with-wine-glasses.jpg
 product:
   natural:
     name: Ensemble de bougies naturelles pures, sans paraffine, cire végétale
-    href: https://amzn.to/3U0wwTv
-    thumbnail: https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B087V1723X&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=d9beud07-21&language=fr_FR
+    href: https://amzn.to/48vN5vO
+    thumbnail: https://m.media-amazon.com/images/I/71-aqRtnA7L._AC_SL1500_.jpg
     description: Bougies 100 % durables fabriquées à partir d'huile de colza suédoise sans OGM et sans additifs, qui sont des matières premières naturelles et renouvelables, résultant en une combustion très propre sans suie ni fumée.
   bee:
     name: Lot de 8 bougies en cire d'abeille naturelle espagnole
-    href: https://amzn.to/3ndyEuw
-    thumbnail: https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL1NMVNL&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=d9beud07-21&language=fr_FR
+    href: https://amzn.to/3ws1ADD
+    thumbnail: https://m.media-amazon.com/images/I/61d9MNnAM1L._AC_SL1080_.jpg
     description: Bougies en cire d'abeille naturelle faites à la main avec de la cire d'origine espagnole. Ne contient pas de paraffine. Les mèches sont fabriquées en coton biologique. Ne produit pas de fumée.
 ---
 

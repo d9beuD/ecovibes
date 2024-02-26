@@ -5,8 +5,8 @@ description: Découvrez l'oreiller en kapok, une alternative écologique et dura
 image: /assets/images/posts/white-pillow-on-grey-sofa.jpg
 product:
   name: Oreiller vegan en KAPOK et tissu GOTS
-  href: https://amzn.to/40DGxZ2
-  thumbnail: https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08WH88LMQ&Format=_SL160_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=d9beud07-21&language=fr_FR
+  href: https://amzn.to/48vzFjx
+  thumbnail: https://m.media-amazon.com/images/I/51APJpNJpdL._AC_SL1500_.jpg
   description: Ce coussin s'adapte à votre façon de dormir, de sorte que chaque position de repos soit prise en charge de manière confortable.
 ---
 
