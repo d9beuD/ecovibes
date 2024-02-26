@@ -10,9 +10,18 @@
           <img
             alt="{{ thumbnail.alt }}"
             class="card-img rounded-4"
-            src="{{ path }}"
+            src="{{ path | size: 480 }}"
             srcset="{{ path | srcset }}"
-            width="400px">
+            sizes="
+              (min-width: 576px) 244px,
+              (min-width: 768px) 274px,
+              (min-width: 992px) 374px,
+              (min-width: 1200px) 354px,
+              (min-width: 1400px) 414px,
+              75vw
+            "
+            width="480"
+          >
           <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
             <h2 class="h2 card-title">{{ category.title }}</h2>
           </div>
